@@ -1,0 +1,299 @@
+D:/Documentos/UFSC/VHDL/core_rv32i/reg1b.vhd {1 {vcom -work work -2008 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/reg1b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg1b
+-- Compiling architecture description of reg1b
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/mux16_2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/mux16_2_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux16_2_1
+-- Compiling architecture behavioral of mux16_2_1
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/forwarding_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/forwarding_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity forwarding_unit
+-- Compiling architecture logic of forwarding_unit
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/data_memory.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/data_memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity data_memory
+-- Compiling architecture behavioural of data_memory
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/instruction_memory.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/instruction_memory.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instruction_memory
+-- Compiling architecture logic of instruction_memory
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture logic of ALU
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/core_rv32i_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/core_rv32i_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity core_rv32i_tb
+-- Compiling architecture testbench1 of core_rv32i_tb
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/reg3b.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/reg3b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg3b
+-- Compiling architecture description of reg3b
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/mux_2_1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/mux_2_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_2_1
+-- Compiling architecture behavioral of mux_2_1
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/instruction_decode_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/instruction_decode_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity instruction_decode_unit
+-- Compiling architecture logic of instruction_decode_unit
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/register_file.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/register_file.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity register_file
+-- Compiling architecture logic of register_file
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/mem_wb_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/mem_wb_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mem_wb_reg
+-- Compiling architecture logic of mem_wb_reg
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/mux_3_1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/mux_3_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_3_1
+-- Compiling architecture behavioral of mux_3_1
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/reg32b_falling_edge.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/reg32b_falling_edge.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg32b_falling_edge
+-- Compiling architecture description of reg32b_falling_edge
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/reg32b.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/reg32b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg32b
+-- Compiling architecture description of reg32b
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/reg5b.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/reg5b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg5b
+-- Compiling architecture description of reg5b
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/mux_4_1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/mux_4_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_4_1
+-- Compiling architecture behavioral of mux_4_1
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/immediate_generator.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/immediate_generator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity immediate_generator
+-- Compiling architecture logic of immediate_generator
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/core_rv32i.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/core_rv32i.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity core_rv32i
+-- Compiling architecture logic of core_rv32i
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/progmem.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/progmem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity progmem
+-- Compiling architecture SYN of progmem
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/ex_mem_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/ex_mem_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ex_mem_reg
+-- Compiling architecture logic of ex_mem_reg
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading package NUMERIC_STD
+-- Compiling entity adder
+-- Compiling architecture logic of adder
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/datamem_interface.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/datamem_interface.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datamem_interface
+-- Compiling architecture behavioural of datamem_interface
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/hazard_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/hazard_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity hazard_unit
+-- Compiling architecture logic of hazard_unit
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/jump_target_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/jump_target_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity jump_target_unit
+-- Compiling architecture behavioral of jump_target_unit
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/delay_driver.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/delay_driver.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity delay_driver
+-- Compiling architecture description of delay_driver
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/reg2b.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/reg2b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg2b
+-- Compiling architecture description of reg2b
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/branch_logic.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/branch_logic.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity branch_logic
+-- Compiling architecture logic of branch_logic
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/reg4b.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/reg4b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg4b
+-- Compiling architecture description of reg4b
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/controller.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controller
+-- Compiling architecture logic of controller
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/mux_32_1.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/mux_32_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux_32_1
+-- Compiling architecture behavioral of mux_32_1
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/id_ex_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/id_ex_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity id_ex_reg
+-- Compiling architecture logic of id_ex_reg
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/program_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/program_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity program_counter
+-- Compiling architecture logic of program_counter
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity datapath
+-- Compiling architecture logic of datapath
+
+} {} {}} D:/Documentos/UFSC/VHDL/core_rv32i/if_id_reg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/Documentos/UFSC/VHDL/core_rv32i/if_id_reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity if_id_reg
+-- Compiling architecture logic of if_id_reg
+
+} {} {}}

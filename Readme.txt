@@ -1,0 +1,16 @@
+	- Top entity: core_rv32i.vhd
+	- Até o momento, o projeto contém todo o datapath e seus cinco estágios, controle, forwarding unit, e hazard detection unit, e implementa todas as instruções propostas.
+	- Segue na pasta do projeto um diagrama de blocos atualizado em relação ao design contido na entrega.
+	- O risc-v de 3 estágios apresentado como modelo (https://github.com/sjohann81/hf-risc) foi de pouca ajuda a princípio, por este motivo busquei outros modelos para ajudar nesta fase inicial. No site oficial da arquitetura há alguns designs disponíveis (https://riscv.org/exchange/cores-socs/), e um em particular (https://github.com/Artoriuz/maestro) foi de grande ajuda pois se baseia na arquitetura proposta no livro bibliografia da disciplina, e, apesar de conter algumas diferenças chaves no design, os componentes estavam bem divididos.
+	- Do design citado acima foi possível aproveitar os seguintes componentes:
+		- Instruction Memory (progmem.vhd) que utiliza ferramentas e componentes do próprio Quartus para acessar um arquivo .mif (Memory Initialization File) que contém o binário referente as instruções.
+		- Data Memory (data_memory.vhd), que também utiliza componentes do próprio Quartus, com adaptações pois o componente original permite acessar os dados de várias maneiras diferentes e para o projeto só é necessário dois tipos (bytes e words).
+		- Fragmentos da lógica presente na ALU e no controle (utilizado também no immediate generator), por exemplo, decodificar a instrução em dois passos, primeiro em tipo (R, I, S, SB, U e UJ) e depois a instrução específica.
+		- Multiplexadores
+		- Registradores unitários
+		- Somadores
+	- Além disso o design como um todo foi de bastante ajuda para compreender melhor a implementação do ISA RISC-V no geral além de antecipar vários possíveis problemas. Ainda assim, tentei manter o design do projeto sendo desenvolvido o mais próximo possível do proposto (Slide 76 do capítulo 4).
+	- Segue um testbench preliminar (core_rv32i_tb.vhd) cuja função é gerar um clock de 20Mhz.
+	- É possível sintetizar o projeto e utilizar o RTL viewer no Quartus versão 19.1 (não é garantido em versões mais recentes).
+	- É possível simular o projeto utilizando o testbench presente no ModelSim.
+	- Há um arquivo progmem.mif que contém o código em binário a ser executado, que pode ser alterado seguindo o padrão pré existente.

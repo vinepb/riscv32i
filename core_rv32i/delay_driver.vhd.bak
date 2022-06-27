@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity delay_driver is
+	port (
+		reg_in : in std_logic;
+		load, clock, clear : in std_logic;
+		reg_out : out std_logic
+	);
+end delay_driver;

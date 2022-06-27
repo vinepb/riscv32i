@@ -1,0 +1,97 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2019  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+# Date created = 08:42:17  November 20, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		core_rv32i_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY core_rv32i
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "08:42:17  NOVEMBER 20, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name VHDL_FILE core_rv32i.vhd
+set_global_assignment -name VHDL_FILE datapath.vhd
+set_global_assignment -name VHDL_FILE program_counter.vhd
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE adder.vhd
+set_global_assignment -name VHDL_FILE id_ex_reg.vhd
+set_global_assignment -name VHDL_FILE if_id_reg.vhd
+set_global_assignment -name VHDL_FILE immediate_generator.vhd
+set_global_assignment -name VHDL_FILE jump_target_unit.vhd
+set_global_assignment -name VHDL_FILE reg32b.vhd
+set_global_assignment -name VHDL_FILE reg32b_falling_edge.vhd
+set_global_assignment -name VHDL_FILE register_file.vhd
+set_global_assignment -name VHDL_FILE mux_32_1.vhd
+set_global_assignment -name VHDL_FILE reg1b.vhd
+set_global_assignment -name VHDL_FILE reg2b.vhd
+set_global_assignment -name VHDL_FILE reg3b.vhd
+set_global_assignment -name VHDL_FILE reg4b.vhd
+set_global_assignment -name VHDL_FILE reg5b.vhd
+set_global_assignment -name VHDL_FILE branch_logic.vhd
+set_global_assignment -name VHDL_FILE instruction_memory.vhd
+set_global_assignment -name VHDL_FILE mux_2_1.vhd
+set_global_assignment -name VHDL_FILE mux_3_1.vhd
+set_global_assignment -name VHDL_FILE ALU.vhd
+set_global_assignment -name VHDL_FILE ex_mem_reg.vhd
+set_global_assignment -name VHDL_FILE mem_wb_reg.vhd
+set_global_assignment -name VHDL_FILE data_memory.vhd
+set_global_assignment -name VHDL_FILE datamem_interface.vhd
+set_global_assignment -name SOURCE_FILE progmem.cmp
+set_global_assignment -name QIP_FILE progmem.qip
+set_global_assignment -name VHDL_FILE controller.vhd
+set_global_assignment -name VHDL_FILE forwarding_unit.vhd
+set_global_assignment -name VHDL_FILE hazard_unit.vhd
+set_global_assignment -name VHDL_FILE mux_4_1.vhd
+set_global_assignment -name VHDL_FILE instruction_decode_unit.vhd
+set_global_assignment -name VHDL_FILE core_rv32i_tb.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (VHDL)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name VHDL_FILE mux16_2_1.vhd
+set_global_assignment -name VHDL_FILE delay_driver.vhd
+set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY ON -section_id eda_simulation
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

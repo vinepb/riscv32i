@@ -1,0 +1,145 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "debug_instruction[0]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[1]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[2]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[3]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[4]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[5]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[6]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[7]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[8]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[9]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[10]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[11]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[12]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[13]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[14]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[15]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[16]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[17]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[18]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[19]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[20]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[21]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[22]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[23]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[24]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[25]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[26]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[27]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[28]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[29]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[30]",
+					"strict" : false
+				},
+				{
+					"name" : "debug_instruction[31]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
